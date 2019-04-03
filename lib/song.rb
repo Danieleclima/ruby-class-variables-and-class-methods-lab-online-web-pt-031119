@@ -40,10 +40,9 @@ class Song
   
   def self.artist_count
     @@artists.each do |artists|
-      binding.pry
       @@artist_count[artists] ||= 0
+       binding.pry
       @@artists_count[artists] += 1
-      binding.pry
   end
   @@artists_count
   end
