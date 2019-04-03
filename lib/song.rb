@@ -33,7 +33,6 @@ class Song
     @@genres.each do |genres|
     @@genre_count[genres] ||= 0
     @@genre_count[genres] += 1
-    binding.pry
   end
   @@genre_count
   end
